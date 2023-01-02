@@ -136,6 +136,7 @@ iframe{
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-bottom: 60px;
 }
 .sobre-pousada > div > div > h3{
   padding-bottom: 10px;
@@ -147,4 +148,37 @@ iframe{
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+footer{
+  width: 100%;
+  background-color: #49997c;
+}
+footer > div > h4{
+  font-size: 20px;
+  color: #fff;
+  width: 17%;
+  padding: 20px 10px 40px 10px;
+}
+footer > .container-footer{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+footer > .container-footer > div{
+ display: flex;
+ align-items: center;
+ width: 20%;
+}
+footer > .container-footer > div > img{
+  padding-right: 8px;
+}
+footer > .container-footer > div > a{
+  font-size: 17px;
+  color: #fff;
+  text-decoration: none;
+}
+footer > div > p{
+  text-align: center;
+  margin-top: 40px;
 }
