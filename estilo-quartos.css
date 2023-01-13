@@ -1,5 +1,32 @@
 *{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.centralizar{
+  margin-top: 60px;
+  margin-bottom: 60px; 
+}
+.centralizar > h2{
+  text-align: center;
+  padding-bottom: 10px;
+}
+.centralizar > p{
+  text-align: center;
+}
+.titulo-lista{
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px; 
+}
+ul{
+  margin-left: 10%;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+ul > li{
+  width: 25%;
+  text-align: left;
 }
