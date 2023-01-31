@@ -179,4 +179,95 @@ footer > .container-footer > div > a{
 footer > div > p{
   text-align: center;
   margin-top: 40px;
+  font-size: 13px;
+}
+
+@media (min-width: 320px) and ( max-width: 425px){
+  header{
+    height: 70px;
+    background-color: #e4e4e4;
+  }
+   header > .conteudo-header{
+    display: flex;
+    flex-direction: column;
+   }
+   header > .conteudo-header > div{
+    padding-bottom: 10px;
+   }
+   .container-imagem{
+    display: none;
+   }
+   .bem-vindo{
+    margin-top: 30px;
+   }
+   .limite > .tipos-quartos > div{
+    margin-bottom: 10px;
+   }
+   #rota{
+    margin-top: 30px;
+   }
+   iframe{
+    padding: 0px 10px;
+   }
+   #sobre{
+    margin-top: 30px;
+    margin-bottom: 30px;
+   }
+   .sobre-pousada{
+    margin-bottom: 0px;
+   }
+   .sobre-pousada > div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin: 0px 10px 50px 10px;
+   }
+   .sobre-pousada > div > div > h3{
+    text-align: center;
+   }
+   .sobre-pousada > div > div > p{
+    text-align: center;
+   }
+   .sobre-pousada > div > img{
+    padding-top: 10px;
+   }
+   footer > div > h4{
+    text-align: center;
+    width: 100%;
+   }
+   footer > .container-footer{
+    flex-direction: column;
+    width: 100%;
+   }
+   footer > .container-footer > div{
+    width: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+   }
+}
+
+@media (min-width: 426px) and ( max-width: 768px){
+  header > .conteudo-header{
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .limite > .tipos-quartos > div{
+    margin-bottom: 10px;
+   }
+  iframe{
+    padding: 0px 10px;
+  }
+  footer > div > h4{
+    width: 25%;
+  }
+}
+@media (min-width: 769px) and ( max-width: 1024px){
+  header > .conteudo-header{
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  iframe{
+    padding: 0px 10px;
+  }
 }
